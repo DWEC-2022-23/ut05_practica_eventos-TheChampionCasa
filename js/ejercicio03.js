@@ -25,6 +25,5 @@ function teclado(e){
     document.getElementById('coordenadas').style.display="none";
     key.textContent=`Letra o carácter ${"["+e.key+"]"}
     Código ${"["+e.keyCode+"]"}`;
-    //key.textContent=`Código ${"["+e.keyCode+"]"}`;
 }
 
